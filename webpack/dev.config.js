@@ -25,7 +25,7 @@ module.exports = {
             'process.env': {
                 BROWSER: JSON.stringify(true),
                 NODE_ENV: JSON.stringify('development'),
-                VERSION: JSON.stringify(git.long())
+                //VERSION: JSON.stringify(git.long())
             }
         }),
         ...baseConfig.plugins,
